@@ -4,9 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffa0ad"
+    android:background="#ffb1bb"
+    android:orientation="vertical"
     tools:context="woojy.kr.hs.emirim.activitytest.MainActivity">
 
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#ff7377"
+        />
     <Button
         android:id="@+id/but_second"
         android:layout_width="match_parent"
